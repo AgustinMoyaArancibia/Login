@@ -14,7 +14,8 @@ namespace Application.Interfaces
         //necesito un repositorio que me permita obtener un usuario por su nombre
         //se implementa en Infrastructure/Data/Repositories/UsuarioRepository.cs
 
-
-
+        Task AddAsync(Usuario user, CancellationToken ct = default);   // ⬅️ nuevo
     }
+
 }
+

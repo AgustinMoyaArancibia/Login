@@ -12,6 +12,6 @@ namespace Application.Interfaces
 
         //el login debe recibir la contraseña en texto plano y compararla con el hash almacenado en la base de datos
 
-
+        string Hash(string password);
     }
 }
